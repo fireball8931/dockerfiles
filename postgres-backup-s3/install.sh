@@ -5,7 +5,7 @@ set -eo pipefail
 
 apk update
 apk add openssl aws-cli 
-apk add postgresql-client-16
+apk add postgresql16-client
 
 # cleanup
 rm -rf /var/cache/apk/*
